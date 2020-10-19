@@ -4,6 +4,20 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { translations, translationChunksConfig } from '@spartacus/assets';
 import { B2cStorefrontModule } from '@spartacus/storefront';
+import { ProductOutletModule } from './product-outlet/product-outlet.module';
+import { CommonOutletsModule } from './common-outlets/common-outlets.module';
+import {ConfigModule} from "@spartacus/core";
+
+
+export const translationOverwrites = {
+  en: { // lang
+    mw: { // chunk
+      logo: { // keys (nested)
+        alt: 'Medienwerft',
+      },
+    },
+  },
+};
 
 @NgModule({
   declarations: [
@@ -30,7 +44,12 @@ import { B2cStorefrontModule } from '@spartacus/storefront';
       features: {
         level: '3.0'
       }
-    })
+    }),
+    ConfigModule.withConfig({
+      i18n: { resources: translationOverwrites }
+    }),
+    CommonOutletsModule,
+    ProductOutletModule
   ],
   providers: [],
   bootstrap: [AppComponent]

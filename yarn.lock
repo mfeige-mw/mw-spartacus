@@ -1286,17 +1286,17 @@
     semver "7.3.2"
     semver-intersect "1.4.0"
 
-"@spartacus/assets@^3.0.0-next.3":
-  version "3.0.0-next.3"
-  resolved "https://registry.yarnpkg.com/@spartacus/assets/-/assets-3.0.0-next.3.tgz#6276e2d671a0206692a4a522341a5303f3ff77af"
-  integrity sha512-W4fm1RUBG3ojYwJXnK3MDeilMEs7ypN6nxhh1pedDcEP1ZLZh9kB+C+Pe2opBLRvYHPUdTeVlpXFK6iMWp+veg==
+"@spartacus/assets@^3.0.0-next":
+  version "3.0.0-next.4"
+  resolved "https://registry.yarnpkg.com/@spartacus/assets/-/assets-3.0.0-next.4.tgz#955cf67295ef66c3177b913b0679a738e4a6238c"
+  integrity sha512-suZqC8HhXSbixUh6ORTh29l7An/TnI2mBJLEN8OBUkbLw/rzODyYb9UH7yFBy6KcMrx6r2NAhZv/OQa3oIb5MQ==
   dependencies:
     tslib "^2.0.0"
 
-"@spartacus/core@^3.0.0-next.3":
-  version "3.0.0-next.3"
-  resolved "https://registry.yarnpkg.com/@spartacus/core/-/core-3.0.0-next.3.tgz#f7bc42fa8e574fcba3a6d4e2f79fdb18dc055eee"
-  integrity sha512-1Bu3oNteNdwuvh4MX9Lsn/4W4KF53nSu4ElxYr+HqR5m9rCl4vx47cZ9j5C/bVhNx6L0Z8bmJ4i+meOaj+wpPw==
+"@spartacus/core@^3.0.0-next":
+  version "3.0.0-next.4"
+  resolved "https://registry.yarnpkg.com/@spartacus/core/-/core-3.0.0-next.4.tgz#14e59362493a7821728322f5f8cabdec4f1ea84d"
+  integrity sha512-Sr3inOzRrxWUiDnDmtbrw0duppkfwO+AonODeRN4HQZ8EVsFBEtW5evgaZPPqLiL95nORjmfjbfL4+WY8tfp7g==
   dependencies:
     tslib "^2.0.0"
 
@@ -1314,17 +1314,17 @@
     "@schematics/angular" "^10.1.0"
     "@schematics/update" "^0.1001.0"
 
-"@spartacus/storefront@^3.0.0-next.3":
-  version "3.0.0-next.3"
-  resolved "https://registry.yarnpkg.com/@spartacus/storefront/-/storefront-3.0.0-next.3.tgz#69c4930a09cce5c91c7389faeeab31a11ea1b699"
-  integrity sha512-fYAZcLA+wsuAdVrC7I7MTtmYxdjiCELASDetmnaTcXtTZEK4Itpowy++JtS+qHaBi0tfcPrZsFfrl3+oxOmGmQ==
+"@spartacus/storefront@^3.0.0-next":
+  version "3.0.0-next.4"
+  resolved "https://registry.yarnpkg.com/@spartacus/storefront/-/storefront-3.0.0-next.4.tgz#905bf58825f7b99db5edf128781a36f9f676f570"
+  integrity sha512-hogq4+gHejvmV4UUMFnSjK3HwnRfpJMdIFAwzow5ROiIdw8ql0+is518cYkF3Teirl0osZym8YetGyzYTQd9/A==
   dependencies:
     tslib "^2.0.0"
 
-"@spartacus/styles@^3.0.0-next.3":
-  version "3.0.0-next.3"
-  resolved "https://registry.yarnpkg.com/@spartacus/styles/-/styles-3.0.0-next.3.tgz#833723709fa4f6c57cd9314bee89403e8c4ae89c"
-  integrity sha512-Pw1I5wksskxW7jlG+U0B+q4wq9TDBnKNZyJ3cWvS/KSfdyiJmduq7b9K4k87sDiC17KMam9jhlhjHdhU5vSPcw==
+"@spartacus/styles@^3.0.0-next":
+  version "3.0.0-next.4"
+  resolved "https://registry.yarnpkg.com/@spartacus/styles/-/styles-3.0.0-next.4.tgz#7cb67d5276c2bcc22ebfaa12a7837169905e5c51"
+  integrity sha512-0WhpKaBRktjFX7DIZYA7UBIfsAfOHMWhIu/+Il+NWLJdiThhfVAYh/zpnUfGRfHiK5mT5HT2NuQimKHWqcBDrQ==
   dependencies:
     hamburgers "^1.1.3"
 

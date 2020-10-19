@@ -1,0 +1,5 @@
+<ng-template cxOutletRef="Summary" cxOutletPos="after">
+  <ng-container *ngIf="((product$ | async).availableForPickup)">
+    <strong>Available for Pickup</strong>
+  </ng-container>
+</ng-template>
