@@ -2,5 +2,18 @@
   <!-- QUESTION: How to make l10n work?
   <img src="/assets/img/mw_logo_weiss_rgb.svg" alt="{{ 'mw.logo.alt' | cxTranslate }}"/>
   -->
-  <img src="/assets/img/mw_logo_weiss_rgb.svg" alt="Medienwerft"/>
+  <cx-generic-link url="/"><img src="/assets/img/mw_logo_weiss_rgb.svg" alt="Medienwerft"/></cx-generic-link>
+</ng-template>
+
+<ng-template cxOutletRef="header" cxOutletPos="before">
+  <div class="covid19info">
+    <p>
+      <strong>Covid-19 Bad</strong>
+    </p>
+    <ul>
+      <li>Not go outside, outside bad</li>
+      <li>Don't shake hands, hands unclean</li>
+      <li>Keep distance, distance good</li>
+    </ul>
+  </div>
 </ng-template>

@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { OutletRefModule } from '@spartacus/storefront';
+import {GenericLinkModule, OutletRefModule} from '@spartacus/storefront';
 import { CommonOutletsComponent } from './common-outlets.component';
 
 
@@ -9,7 +9,8 @@ import { CommonOutletsComponent } from './common-outlets.component';
   declarations: [CommonOutletsComponent],
   imports: [
     CommonModule,
-    OutletRefModule
+    OutletRefModule,
+    GenericLinkModule
   ],
   exports: [CommonOutletsComponent]
 })
